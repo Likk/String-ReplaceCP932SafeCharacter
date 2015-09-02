@@ -26,19 +26,19 @@ String::ReplaceCP932SafeCharacter
 use strict;
 use warnings;
 use utf8;
-use 5.10.0;
 use Encode;
 use Exporter::Lite;
 
+our $VERSION   = '0.01';
 our @EXPORT_OK = qw/replace/;
 
-=head1 PACKAGE GLOBAL VALIABLE
+=head1 PACKAGE GLOBAL VARIABLE
 
 =over
 
 =item B<cp932_not_exist_characters>
 
-cp932に存在しな文字
+cp932に存在しない文字
 
 =item B<cp932_safe_characters>
 
@@ -71,34 +71,5 @@ sub replace {
 }
 
 1;
-use strict;
-use warnings;
-our $VERSION = '0.01';
 
-1;
 __END__
-
-=head1 NAME
-
-String::ReplaceCP932SafeCharacter -
-
-=head1 SYNOPSIS
-
-  use String::ReplaceCP932SafeCharacter;
-
-=head1 DESCRIPTION
-
-String::ReplaceCP932SafeCharacter is
-
-=head1 AUTHOR
-
-likkradyus E<lt>perl {at} li.que.jpE<gt>
-
-=head1 SEE ALSO
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
-
-=cut

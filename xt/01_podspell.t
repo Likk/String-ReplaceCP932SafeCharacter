@@ -8,3 +8,4 @@ __DATA__
 likkradyus
 perl {at} li.que.jp
 String::ReplaceCP932SafeCharacter
+cp
