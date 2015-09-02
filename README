@@ -1,0 +1,28 @@
+This is Perl module String::ReplaceCP932SafeCharacter.
+
+INSTALLATION
+
+String::ReplaceCP932SafeCharacter installation is straightforward. If your git is set up,
+you should just be able to do
+
+    % git clone git://github.com/Likk/String-ReplaceCP932SafeCharacter.git
+
+Download it, unpack it, then build it as per the usual:
+
+    % cd String-ReplaceCP932SafeCharacter
+    % perl Makefile.PL
+    % make && make test
+
+Then install it:
+
+    % make install
+
+DOCUMENTATION
+
+String::ReplaceCP932SafeCharacter documentation is available as in POD. So you can do:
+
+    % perldoc String::ReplaceCP932SafeCharacter
+
+to read the documentation online with your favorite pager.
+
+likkradyus
